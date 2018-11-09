@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dual Home Automation Controller</string>
+    <string name="switch_string">Switch</string>
+    <string name="outlet_1">Outlet 1</string>
+    <string name="outlet_2">Outlet 2</string>
+    <string name="outlet_3">Outlet 3</string>
+    <string name="outlet_4">Outlet 4</string>
+    <string name="outlet_5">Outlet 5</string>
+    <string name="outlet_6">Outlet 6</string>
+    <string name="outlet_8">Outlet 8</string>
+    <string name="outlet_7">Outlet 7</string>
+</resources>

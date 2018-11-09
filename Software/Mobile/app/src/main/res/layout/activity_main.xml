@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/outletButton8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="95dp"
+        android:text="@string/outlet_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/outletButton7"
+        app:layout_constraintTop_toBottomOf="@+id/outletButton6" />
+
+    <Button
+        android:id="@+id/outletButton7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="95dp"
+        android:text="@string/outlet_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/outletButton8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outletButton5" />
+
+    <Button
+        android:id="@+id/outletButton6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/outlet_6"
+        app:layout_constraintBottom_toTopOf="@+id/outletButton8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/outletButton5"
+        app:layout_constraintTop_toBottomOf="@+id/outletButton4" />
+
+    <Button
+        android:id="@+id/outletButton5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/outlet_5"
+        app:layout_constraintBottom_toTopOf="@+id/outletButton7"
+        app:layout_constraintEnd_toStartOf="@+id/outletButton6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outletButton3" />
+
+    <Button
+        android:id="@+id/outletButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/outlet_3"
+        app:layout_constraintBottom_toTopOf="@+id/outletButton5"
+        app:layout_constraintEnd_toStartOf="@+id/outletButton4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outletButton1" />
+
+    <Button
+        android:id="@+id/outletButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/outlet_4"
+        app:layout_constraintBottom_toTopOf="@+id/outletButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/outletButton3"
+        app:layout_constraintTop_toBottomOf="@+id/outletButton2" />
+
+    <Button
+        android:id="@+id/outletButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/outlet_2"
+        app:layout_constraintBottom_toTopOf="@+id/outletButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/outletButton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/outletButton1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/outlet_1"
+        app:layout_constraintBottom_toTopOf="@+id/outletButton3"
+        app:layout_constraintEnd_toStartOf="@+id/outletButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
